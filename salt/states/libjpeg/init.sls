@@ -1,0 +1,2 @@
+include:
+  - libjpeg.install
