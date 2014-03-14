@@ -1,0 +1,2 @@
+include:
+  - libxslt.install

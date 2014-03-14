@@ -2,11 +2,12 @@
 base:
   '*':
     include:
+    - libxslt
+    - libfreetype
+    - libjpeg
+    - libmysqlclientdev
+
     - postfix
     - python2
     - mysql
     - ntp
-
-    - libfreetype
-    - libjpeg
-    - libmysqlclientdev
