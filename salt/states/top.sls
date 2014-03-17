@@ -11,3 +11,5 @@ base:
     - python2
     - mysql
     - ntp
+    - virtualenv
+    - gitflow

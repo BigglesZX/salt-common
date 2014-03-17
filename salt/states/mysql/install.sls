@@ -15,3 +15,12 @@ libmysqlclient_install:
     - require:
       - pkg: mysql_install
       - pkg: mysql_client_install
+
+python_mysqldb_install:
+  pkg:
+    - installed
+    - name: python-mysqldb
+    - require:
+      - pkg: mysql_install
+      - pkg: mysql_client_install
+      - pkg: libmysqlclient_install
