@@ -1,3 +1,12 @@
 h1. salt-common
 
-Common project-centric Salt states for Vagrant development
+Common project-centric Salt states for Vagrant development.
+
+Check out into @~/.salt-common@ for use with Vagrant provisioning.
+
+h2. The Functional Four
+
+* https://github.com/BigglesZX/salt-common
+* https://github.com/BigglesZX/salt-dev
+* https://github.com/BigglesZX/dotfiles
+* https://github.com/BigglesZX/Vagrant-template
