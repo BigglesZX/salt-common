@@ -5,6 +5,7 @@ base:
     - libxslt
     - libfreetype
     - libjpeg
+    - libpq-dev
     - libmysqlclientdev
 
     - postfix
