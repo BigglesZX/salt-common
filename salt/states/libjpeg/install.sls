@@ -3,6 +3,11 @@ libjpeg_install:
     - installed
     - name: libjpeg62-dev
 
+zlib_install:
+  pkg:
+    - installed
+    - name: zlib1g-dev
+
 # If Ubuntu & rlease >= 11.04 we have to Symlink .so files for PIL
 {% if grains['osrelease']|float >= 11.04 %}
 
