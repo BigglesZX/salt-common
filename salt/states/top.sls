@@ -12,6 +12,7 @@ base:
     - postfix
     - python2
     - mysql
+    - mysql-tzdata
     - ntp
     - virtualenv
     - gitflow
