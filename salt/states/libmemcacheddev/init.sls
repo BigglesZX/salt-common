@@ -1,0 +1,2 @@
+include:
+  - libmemcacheddev.install

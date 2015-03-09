@@ -7,6 +7,7 @@ base:
     - libjpeg
     - libpq-dev
     - libmysqlclientdev
+    - libmemcacheddev
 
     - postfix
     - python2
