@@ -16,3 +16,4 @@ base:
     - ntp
     - virtualenv
     - gitflow
+    - heroku
