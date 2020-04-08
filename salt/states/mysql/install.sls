@@ -11,7 +11,7 @@ mysql_client_install:
 libmysqlclient_install:
   pkg:
     - installed
-    - name: libmysqlclient-dev
+    - name: default-libmysqlclient-dev
     - require:
       - pkg: mysql_install
       - pkg: mysql_client_install

@@ -2,18 +2,14 @@
 base:
   '*':
     include:
-    - libxslt
-    - libfreetype
-    - libjpeg
-    - libpq-dev
-    - libmysqlclientdev
-    - libmemcacheddev
-
-    - postfix
-    - python2
-    - mysql
-    - mysql-tzdata
-    - ntp
-    - virtualenv
-    - gitflow
-    - heroku
+      - dev-deps
+      - gitflow
+      - heroku
+      - memcached
+      - mysql
+      - mysql-tzdata
+      - nginx
+      - ntp
+      - pillow-deps
+      - python
+      - rng
